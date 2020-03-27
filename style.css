@@ -6,26 +6,19 @@
 
 header{
     background-color: darkblue;
-    /* height: 100px; */
     position: fixed;
 }
 
 section{
     background-color: lightblue;
-    /* height: 400px; */
 }
+
 a{
     text-decoration: none;
-    color: white;
     padding: 20px;
 }
 
-.img{
-    margin: 40px;
-    margin-bottom: 20px;
-    max-height: 250px;
-}
-hr, p{
+hr, p, i, a{
     color: white;
 }
 .centrale{
