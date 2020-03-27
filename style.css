@@ -6,14 +6,23 @@
 
 .header{
     background-color: darkblue;
-    height: 100px;
+    /* height: 100px; */
 }
 
 section{
     background-color: lightblue;
-    height: 400px;
+    /* height: 400px; */
 }
 a{
     text-decoration: none;
     color: white;
+    border: 1px solid black;
+}
+
+.top-left{
+    border: 1px solid black;
+}
+
+.top-right{
+    border: 1px solid black;
 }
