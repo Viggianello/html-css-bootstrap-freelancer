@@ -4,9 +4,10 @@
     box-sizing: border-box;
 }
 
-.header{
+header{
     background-color: darkblue;
     /* height: 100px; */
+    position: fixed;
 }
 
 section{
@@ -16,13 +17,20 @@ section{
 a{
     text-decoration: none;
     color: white;
-    border: 1px solid black;
+    padding: 20px;
 }
 
-.top-left{
-    border: 1px solid black;
+.img{
+    margin: 40px;
+    margin-bottom: 20px;
+    max-height: 250px;
 }
-
-.top-right{
-    border: 1px solid black;
+hr, p{
+    color: white;
+}
+.centrale{
+    font-size: 30px;
+}
+.testo{
+    padding: 10px;
 }
