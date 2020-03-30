@@ -1,3 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+
 .navbar-default.navbar {
     border: 0;
     background-color: #2D3E50;
@@ -32,7 +39,7 @@ main {
     padding-top: 90px;
 }
 
-.jumbotron{
+.jumbotron {
     background-color: #1BBC9B;
     color: white;
     margin-bottom: 0;
@@ -55,41 +62,20 @@ main {
 }
 
 .separatore::before,
-.separatore::after, .separatore-invert::before,
-.separatore-invert::after {
+.separatore::after,{
     content: '';
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     width: calc((100% - 60px) / 2);
     height: 3px;
-}
-
-.separatore::before,
-.separatore::after {
     background-color: white;
 }
 
-.separatore-invert::before,
-.separatore-invert::after {
-    background-color: #2D3E50;
-}
-
-.separatore::before, .separatore-invert::before {
+.separatore::before{
     left: 0;
 }
 
-.separatore::after, .separatore-invert::after {
+.separatore::after{
     right: 0;
-}
-.portfolio{
-    padding-top: 90px;
-    padding-bottom: 90px;
-}
-.cont-img{
-    border-radius: 8%;
-    margin-bottom: 15px;
-}
-.cont-img img{
-    border-radius: 8%;
 }
