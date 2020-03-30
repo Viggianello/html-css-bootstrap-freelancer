@@ -32,7 +32,7 @@ main {
     padding-top: 90px;
 }
 
-.jumbotron{
+.jumbotron, .about{
     background-color: #1BBC9B;
     color: white;
     margin-bottom: 0;
@@ -92,4 +92,8 @@ main {
 }
 .cont-img img{
     border-radius: 8%;
+}
+
+.testo {
+    font-size: 25px;
 }
