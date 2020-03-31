@@ -97,3 +97,10 @@ main {
 .testo {
     font-size: 25px;
 }
+
+.btn-x1{
+    border: 2px solid white;
+    border-radius: 8px;
+    font-size: 20px;
+    padding: 16px 18px;
+}
